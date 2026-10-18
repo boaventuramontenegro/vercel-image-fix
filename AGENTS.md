@@ -36,3 +36,5 @@
 - Scope hero typography overrides to `.hero-copy` and `.hero-brand`; shared editorial emphasis must not change other section titles.
 - Center carousel navigation using track-relative geometry and recenter the active desktop card on resize; mobile gestures retain their existing position.
 - Apply ScrollReveal through a shared observer scoped to the single-page content, using independent translate/scale properties and excluding carousel cards; this preserves native transforms and keeps SSR content visible before initialization.
+
+- Images live as real files in public/images and pointer .asset.json urls point there; never use /__l5e/ CDN urls because the site is deployed on Vercel, where those paths do not exist.
