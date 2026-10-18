@@ -16,6 +16,12 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        glass: "rn-button rn-button-glass",
+        quote: "rn-button rn-button-quote",
+        tool: "rn-tool",
+        filter: "rn-filter",
+        photo: "rn-photo",
+        service: "rn-service-link",
       },
       size: {
         default: "h-9 px-4 py-2",

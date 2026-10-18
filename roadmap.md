@@ -1,0 +1,40 @@
+# R.N Vidraçaria
+- [x] Pedido de 18/10: ordem/âncoras e menu opaco preservados; hero sem serifa/itálico e todo claro conforme referência; lightbox opaco sem barras pretas, foto completa, X maior, zoom, swipe, ESC/fora, foco e scroll verificados em 393/1280/1920; slides 1–10 e retorno centralizados no desktop e último slide centralizado após resize.
+- [ ] Verificação física de safe-area em aparelho com recorte: CSS conferido e telas emuladas verificadas; aguarda aparelho real, indisponível neste ambiente.
+- [ ] Redesign editorial completo: preservar conteúdo e imagens, harmonizar seções, Glassy Carousel e depoimentos, WhatsApp 5519991673123, SEO e validação em celular/tablet/computador.
+- [x] Pedido de 17/10 23:50: respostas do FAQ substituídas pelos textos definitivos (11 perguntas, mesma ordem, sem duplicar) e e-mail removido do rodapé e do conteúdo; mailto=0, WhatsApp/endereço intactos, FAQ abre e fecha em 390 e 1280px; 9 testes passaram.
+- [ ] Remover “Dik”: busca no conteúdo não encontrou o item; aguardando localização ou imagem do usuário.
+- [ ] Atual: adicionar as dez fotos fornecidas e descrições; corrigir foco e contador do carrossel; verificar foto inteira, zoom e X.
+- [x] WhatsApp de teste substituído pelo número oficial no pedido de 17/10; textos preservados e testes das mensagens passaram.
+- [ ] Atual: otimizar imagens e adicionar ScrollReveal seguro; testar sem cache, celular, desktop e movimento reduzido.
+- [ ] Pedido de 16/10: remover filtros; otimizar e antecipar fotos da galeria e Sobre; ajustar mensagens genéricas, por serviço e formulário; testar sem cache e mensagens completas/opcionais.
+- [ ] Ajustes atuais da galeria: corrigir legendas e alt; lightbox escuro com foto inteira, zoom e fechamento acessível; verificar celular e computador.
+- [x] Replace three unapproved gallery photos with ten approved uploads; all filters, lightbox, review numbering and failed-image removal verified at 360, 768 and 1280px; design preserved.
+- [ ] Pedido de 14/10: restaurar dois ícones e foto Rita; substituir texto Sobre; setas nos extremos; verificar fundo e overlays.
+- [x] Galeria: pedido de coleta anterior substituído pelo conjunto oficial de dez fotos enviadas em 15/10; três fotos antigas removidas.
+- [x] FAQ branco compacto com abertura única; depoimento sólido único, contador e nomes completos; fundo e menu fechado verificados em 360/1280px.
+- [x] Galeria: categoria Comércio e fachada rosa removidas; coleta única tentada via Firecrawl no Maps/álbum e Instagram, sem automação.
+- [x] Fotos oficiais adicionadas sem nova coleta: Box 2, Sacadas 1, Portas e janelas 2, Espelhos 2, Guarda-corpos 2, Fachadas 1.
+- [x] Pedido atual: máscaras dos dois ícones corrigidas, um único depoimento com setas e duas fotos reais coletadas via Firecrawl no Maps.
+- [x] Depoimentos editoriais, nomes protegidos, controles abaixo, swipe e altura estável.
+- [x] Substituir somente dois ícones por máscaras dos PNGs fornecidos.
+- [x] Galeria com leitura pública, revisão numerada e coleta somente pelo chat, sem login ou administração.
+- [x] Busca de fotos no Instagram encerrada: utilizar exclusivamente as fotos aprovadas fornecidas pelo usuário.
+- [x] Ícones e setas recortados da imagem enviada, design de depoimentos aplicado e FAQ com dez perguntas após depoimentos; dez testes passaram e navegação/expansão verificadas em 360 e 1280px.
+- [x] Correções atuais: refazer somente os dois ícones, cards de depoimentos com iniciais e setas em celular/computador, link Depoimentos no menu e verificação.
+- [x] Ajustes atuais: dois ícones, ordem dos contatos, fechamento acessível da lista de serviços e quatro depoimentos enviados; sete testes e fluxos verificados no computador e celular.
+- [x] Nove serviços, depoimentos opcionais, mapa/localização e SEO de Piracicaba já presentes; mapa preservado, validação no domínio autorizado pendente e fora do escopo atual.
+- [x] Ajustes delimitados: navegação do rodapé, formulário com vários serviços e medidas individuais, galeria fluida com filtros; fluxos verificados no computador e celular.
+- [x] Hero com foto limpa e texto na base, menu sem Instagram, WhatsApp verde-vidro e rodapé com horário e faixa final centralizada; verificados em computador e celular.
+- [x] Correções solicitadas: menu, logos, ícones oficiais, botão flutuante, formulário, contato, rodapé e Sobre; fluxos verificados em computador e celular.
+- [x] Identidade de vidro, conteúdo centralizado, seções, galeria e depoimentos opcionais.
+- [x] Verificação em 360, 768, 1280 e 1920.
+- [x] Barra superior fixa clara com menu que desce da barra.
+- [x] Logo branca em um único arquivo (barra preta com filtro, rodapé branco).
+- [x] WhatsApp com glifo oficial e botão flutuante verde.
+- [x] Todas as seções brancas, separadas por linhas finas.
+- [x] Galeria sem ícone de "+".
+- [x] Sobre: imagem quadrada 1:1 neutra, sem decoração ou assinatura.
+- [x] Contato: formulário que envia mensagem formatada pelo WhatsApp.
+- [x] Rodapé grafite #15191A com contatos, mapa e botão voltar ao topo.
+- [ ] Hero: trocar a foto provisória pela foto real quando enviada (marca SUBSTITUIR PELA FOTO REAL em src/content.ts) — aguardando a foto.
