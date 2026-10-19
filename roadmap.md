@@ -1,4 +1,6 @@
 # R.N Vidraçaria
+- [ ] Publicar versão de SEO em rn-vidros.vercel.app e confirmar verificação/sitemap: bloqueado por falta de acesso autorizado à conta Vercel.
+- [x] Arquivo de verificação idêntico ao original, sitemap, metadados e fotos locais conferidos na prévia; três testes passaram e build OK, visual preservado.
 - [x] Pedido de 18/10: ordem/âncoras e menu opaco preservados; hero sem serifa/itálico e todo claro conforme referência; lightbox opaco sem barras pretas, foto completa, X maior, zoom, swipe, ESC/fora, foco e scroll verificados em 393/1280/1920; slides 1–10 e retorno centralizados no desktop e último slide centralizado após resize.
 - [ ] Verificação física de safe-area em aparelho com recorte: CSS conferido e telas emuladas verificadas; aguarda aparelho real, indisponível neste ambiente.
 - [ ] Redesign editorial completo: preservar conteúdo e imagens, harmonizar seções, Glassy Carousel e depoimentos, WhatsApp 5519991673123, SEO e validação em celular/tablet/computador.
