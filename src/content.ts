@@ -17,6 +17,17 @@ import glassFacade from './assets/gallery/approved/fachada-envidracada.webp.asse
 import veranda from './assets/gallery/approved/fechamento-varanda.webp.asset.json';
 import mirror from './assets/gallery/approved/espelho-sob-medida.webp.asset.json';
 import stairRailing from './assets/gallery/approved/guarda-corpo-escada.webp.asset.json';
+import storeSlidingDoor from './assets/gallery/approved/porta-loja-correr.webp.asset.json';
+import mezzanineRailing from './assets/gallery/approved/guarda-corpo-mezanino.webp.asset.json';
+import laundrySlidingDoor from './assets/gallery/approved/porta-correr-lavanderia.webp.asset.json';
+import blackSlidingShower from './assets/gallery/approved/box-correr-preto.webp.asset.json';
+import balconyView from './assets/gallery/approved/fechamento-sacada-vista.webp.asset.json';
+import clearGlassBalcony from './assets/gallery/approved/sacada-vidro-incolor.webp.asset.json';
+import facadeSlidingDoors from './assets/gallery/approved/fachada-portas-correr.webp.asset.json';
+import blackCornerShower from './assets/gallery/approved/box-canto-preto.webp.asset.json';
+import gourmetAreaClosing from './assets/gallery/approved/fechamento-area-gourmet.webp.asset.json';
+import barbecueSlidingDoors from './assets/gallery/approved/portas-correr-churrasqueira.webp.asset.json';
+
 
 export const content = {
   brand: { name: 'R.N Vidraçaria', owner: 'Rita Nicoleti', logoSrc: logoSrc, logoAlt: 'R.N Vidraçaria', signature: 'Vidros sob medida', copyright: 'R.N Vidraçaria. Todos os direitos reservados.' },
