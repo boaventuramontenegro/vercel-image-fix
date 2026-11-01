@@ -37,6 +37,11 @@ import photo7 from './assets/gallery/approved/photo-7.webp.asset.json';
 import photo8 from './assets/gallery/approved/photo-8.webp.asset.json';
 import photo9 from './assets/gallery/approved/photo-9.webp.asset.json';
 import photo10 from './assets/gallery/approved/photo-10.webp.asset.json';
+import photo11 from './assets/gallery/approved/photo-11.webp.asset.json';
+import photo12 from './assets/gallery/approved/photo-12.webp.asset.json';
+import photo13 from './assets/gallery/approved/photo-13.webp.asset.json';
+import photo14 from './assets/gallery/approved/photo-14.webp.asset.json';
+import photo15 from './assets/gallery/approved/photo-15.webp.asset.json';
 
 
 export const content = {
@@ -134,10 +139,15 @@ export const content = {
       { src: photo8.url, alt: 'Box de canto com perfil preto', legenda: 'Box de canto com perfil preto', categoria: 'Box' },
       { src: photo9.url, alt: 'Portas de correr de vidro para área gourmet', legenda: 'Portas de correr de vidro para área gourmet', categoria: 'Portas e janelas' },
       { src: photo10.url, alt: 'Portas de correr de vidro com perfil preto', legenda: 'Portas de correr de vidro com perfil preto', categoria: 'Portas e janelas' },
+      { src: photo11.url, alt: 'Porta de vidro para comércio: antes e depois', legenda: 'Porta de vidro para comércio: antes e depois', categoria: 'Portas e janelas' },
+      { src: photo12.url, alt: 'Porta pivotante de vidro jateado', legenda: 'Porta pivotante de vidro jateado', categoria: 'Portas e janelas' },
+      { src: photo13.url, alt: 'Porta de correr com vidro texturizado', legenda: 'Porta de correr com vidro texturizado', categoria: 'Portas e janelas' },
+      { src: photo14.url, alt: 'Fechamento em vidro com perfil preto', legenda: 'Fechamento em vidro com perfil preto', categoria: 'Portas e janelas' },
+      { src: photo15.url, alt: 'Fechamento de área externa em vidro', legenda: 'Fechamento de área externa em vidro', categoria: 'Fachadas' },
     ] as Work[],
   },
   aboutImage: sobreImage.url,
-  about: { imageAlt: 'Rita Nicoleti', paragraphs: ['Rita Nicoleti atende Piracicaba com vidro sob medida para casas, apartamentos e comércios: box de banheiro, fechamento de sacadas e varandas, portas e janelas de vidro, espelhos e claraboias.', 'O trabalho começa no dimensionamento do vidro e segue até a instalação, com a escolha do modelo e do acabamento que combinam com o espaço. Também faz reparo e troca em portas, janelas e vidros já instalados.'] },
+  about: { imageAlt: 'Rita Nicoleti', paragraphs: ['Rita Nicoleti atende Piracicaba e regiões com vidro sob medida para casas, apartamentos e comércios: box de banheiro, fechamento de sacadas e varandas, portas e janelas de vidro, espelhos e claraboias.', 'O trabalho começa no dimensionamento do vidro e segue até a instalação, com a escolha do modelo e do acabamento que combinam com o espaço. Também faz reparo e troca em portas, janelas e vidros já instalados.'] },
   showTestimonials: true,
   testimonialsTitle: 'O que dizem nossos clientes',
   testimonials: [
