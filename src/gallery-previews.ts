@@ -38,6 +38,16 @@ import original18 from './assets/gallery/approved/photo-9.webp.asset.json';
 import preview18 from './assets/gallery/approved/photo-9-preview.webp.asset.json';
 import original19 from './assets/gallery/approved/photo-10.webp.asset.json';
 import preview19 from './assets/gallery/approved/photo-10-preview.webp.asset.json';
+import original20 from './assets/gallery/approved/photo-11.webp.asset.json';
+import preview20 from './assets/gallery/approved/photo-11-preview.webp.asset.json';
+import original21 from './assets/gallery/approved/photo-12.webp.asset.json';
+import preview21 from './assets/gallery/approved/photo-12-preview.webp.asset.json';
+import original22 from './assets/gallery/approved/photo-13.webp.asset.json';
+import preview22 from './assets/gallery/approved/photo-13-preview.webp.asset.json';
+import original23 from './assets/gallery/approved/photo-14.webp.asset.json';
+import preview23 from './assets/gallery/approved/photo-14-preview.webp.asset.json';
+import original24 from './assets/gallery/approved/photo-15.webp.asset.json';
+import preview24 from './assets/gallery/approved/photo-15-preview.webp.asset.json';
 
 export const galleryPreviews: Record<string, string> = {
   [original0.url]: preview0.url,
@@ -60,6 +70,11 @@ export const galleryPreviews: Record<string, string> = {
   [original17.url]: preview17.url,
   [original18.url]: preview18.url,
   [original19.url]: preview19.url,
+  [original20.url]: preview20.url,
+  [original21.url]: preview21.url,
+  [original22.url]: preview22.url,
+  [original23.url]: preview23.url,
+  [original24.url]: preview24.url,
 };
 
 export function galleryPreviewUrl(original: string) {
