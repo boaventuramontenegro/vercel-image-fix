@@ -50,6 +50,16 @@ export const galleryPreviews: Record<string, string> = {
   [original7.url]: preview7.url,
   [original8.url]: preview8.url,
   [original9.url]: preview9.url,
+  [original10.url]: preview10.url,
+  [original11.url]: preview11.url,
+  [original12.url]: preview12.url,
+  [original13.url]: preview13.url,
+  [original14.url]: preview14.url,
+  [original15.url]: preview15.url,
+  [original16.url]: preview16.url,
+  [original17.url]: preview17.url,
+  [original18.url]: preview18.url,
+  [original19.url]: preview19.url,
 };
 
 export function galleryPreviewUrl(original: string) {
