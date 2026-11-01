@@ -18,6 +18,26 @@ import original8 from './assets/gallery/approved/espelho-sob-medida.webp.asset.j
 import preview8 from './assets/gallery/approved/espelho-sob-medida-preview.webp.asset.json';
 import original9 from './assets/gallery/approved/guarda-corpo-escada.webp.asset.json';
 import preview9 from './assets/gallery/approved/guarda-corpo-escada-preview.webp.asset.json';
+import original10 from './assets/gallery/approved/photo-1.webp.asset.json';
+import preview10 from './assets/gallery/approved/photo-1-preview.webp.asset.json';
+import original11 from './assets/gallery/approved/photo-2.webp.asset.json';
+import preview11 from './assets/gallery/approved/photo-2-preview.webp.asset.json';
+import original12 from './assets/gallery/approved/photo-3.webp.asset.json';
+import preview12 from './assets/gallery/approved/photo-3-preview.webp.asset.json';
+import original13 from './assets/gallery/approved/photo-4.webp.asset.json';
+import preview13 from './assets/gallery/approved/photo-4-preview.webp.asset.json';
+import original14 from './assets/gallery/approved/photo-5.webp.asset.json';
+import preview14 from './assets/gallery/approved/photo-5-preview.webp.asset.json';
+import original15 from './assets/gallery/approved/photo-6.webp.asset.json';
+import preview15 from './assets/gallery/approved/photo-6-preview.webp.asset.json';
+import original16 from './assets/gallery/approved/photo-7.webp.asset.json';
+import preview16 from './assets/gallery/approved/photo-7-preview.webp.asset.json';
+import original17 from './assets/gallery/approved/photo-8.webp.asset.json';
+import preview17 from './assets/gallery/approved/photo-8-preview.webp.asset.json';
+import original18 from './assets/gallery/approved/photo-9.webp.asset.json';
+import preview18 from './assets/gallery/approved/photo-9-preview.webp.asset.json';
+import original19 from './assets/gallery/approved/photo-10.webp.asset.json';
+import preview19 from './assets/gallery/approved/photo-10-preview.webp.asset.json';
 
 export const galleryPreviews: Record<string, string> = {
   [original0.url]: preview0.url,
