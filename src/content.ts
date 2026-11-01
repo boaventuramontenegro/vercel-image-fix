@@ -27,6 +27,16 @@ import facadeSlidingDoors from './assets/gallery/approved/fachada-portas-correr.
 import blackCornerShower from './assets/gallery/approved/box-canto-preto.webp.asset.json';
 import gourmetAreaClosing from './assets/gallery/approved/fechamento-area-gourmet.webp.asset.json';
 import barbecueSlidingDoors from './assets/gallery/approved/portas-correr-churrasqueira.webp.asset.json';
+import photo1 from './assets/gallery/approved/photo-1.webp.asset.json';
+import photo2 from './assets/gallery/approved/photo-2.webp.asset.json';
+import photo3 from './assets/gallery/approved/photo-3.webp.asset.json';
+import photo4 from './assets/gallery/approved/photo-4.webp.asset.json';
+import photo5 from './assets/gallery/approved/photo-5.webp.asset.json';
+import photo6 from './assets/gallery/approved/photo-6.webp.asset.json';
+import photo7 from './assets/gallery/approved/photo-7.webp.asset.json';
+import photo8 from './assets/gallery/approved/photo-8.webp.asset.json';
+import photo9 from './assets/gallery/approved/photo-9.webp.asset.json';
+import photo10 from './assets/gallery/approved/photo-10.webp.asset.json';
 
 
 export const content = {
@@ -114,6 +124,16 @@ export const content = {
       { src: veranda.url, alt: 'Fechamento de varanda em vidro', legenda: 'Fechamento de varanda em vidro', categoria: 'Sacadas' },
       { src: mirror.url, alt: 'Espelho sob medida', legenda: 'Espelho sob medida', categoria: 'Espelhos' },
       { src: stairRailing.url, alt: 'Guarda-corpo de vidro para escada', legenda: 'Guarda-corpo de vidro para escada', categoria: 'Guarda-corpos' },
+      { src: photo1.url, alt: 'Porta de correr de vidro para comércio', legenda: 'Porta de correr de vidro para comércio', categoria: 'Portas e janelas' },
+      { src: photo2.url, alt: 'Guarda-corpo de vidro com perfil de alumínio para escada', legenda: 'Guarda-corpo de vidro com perfil de alumínio para escada', categoria: 'Guarda-corpos' },
+      { src: photo3.url, alt: 'Porta de correr de vidro com perfil preto', legenda: 'Porta de correr de vidro com perfil preto', categoria: 'Portas e janelas' },
+      { src: photo4.url, alt: 'Box de banheiro com perfil preto', legenda: 'Box de banheiro com perfil preto', categoria: 'Box' },
+      { src: photo5.url, alt: 'Fechamento de sacada com vista aberta', legenda: 'Fechamento de sacada com vista aberta', categoria: 'Sacadas' },
+      { src: photo6.url, alt: 'Fechamento de sacada em apartamento', legenda: 'Fechamento de sacada em apartamento', categoria: 'Sacadas' },
+      { src: photo7.url, alt: 'Fachada envidraçada com portas de correr', legenda: 'Fachada envidraçada com portas de correr', categoria: 'Fachadas' },
+      { src: photo8.url, alt: 'Box de canto com perfil preto', legenda: 'Box de canto com perfil preto', categoria: 'Box' },
+      { src: photo9.url, alt: 'Portas de correr de vidro para área gourmet', legenda: 'Portas de correr de vidro para área gourmet', categoria: 'Portas e janelas' },
+      { src: photo10.url, alt: 'Portas de correr de vidro com perfil preto', legenda: 'Portas de correr de vidro com perfil preto', categoria: 'Portas e janelas' },
     ] as Work[],
   },
   aboutImage: sobreImage.url,
