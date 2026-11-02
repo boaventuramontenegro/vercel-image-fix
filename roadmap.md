@@ -1,5 +1,6 @@
 # R.N Vidraçaria
-- [ ] Pedido de 02/11: substituir somente a imagem de compartilhamento pela logo em og-image.png (1200×630, fundo sólido, menos de 300 KB), verificar tags no HTML sem JavaScript e acesso local/público; publicação Vercel depende de acesso externo.
+- [x] Pedido de 02/11: logo em public/og-image.png, 1200×630, RGB sólido na cor principal, 101.809 bytes; tags únicas verificadas no HTML HTTP sem JavaScript e imagem local 200; build OK, sem alteração visual.
+- [ ] Publicar imagem de compartilhamento na Vercel: site público ainda usa foto da galeria e /og-image.png?v=2 retorna 404; sem acesso à implantação Vercel nesta sessão. Compartilhamento real no WhatsApp não testado.
 - [ ] Publicar versão de SEO no domínio atual rnvidracaria.vercel.app e confirmar verificação/sitemap: bloqueado por falta de acesso autorizado à conta Vercel; correções aplicadas no projeto (content.ts, sitemap.xml, robots.txt) em 19/10.
 - [x] Arquivo de verificação idêntico ao original, sitemap, metadados e fotos locais conferidos na prévia; três testes passaram e build OK, visual preservado.
 - [x] Pedido de 18/10: ordem/âncoras e menu opaco preservados; hero sem serifa/itálico e todo claro conforme referência; lightbox opaco sem barras pretas, foto completa, X maior, zoom, swipe, ESC/fora, foco e scroll verificados em 393/1280/1920; slides 1–10 e retorno centralizados no desktop e último slide centralizado após resize.
