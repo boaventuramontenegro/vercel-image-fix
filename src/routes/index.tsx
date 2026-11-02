@@ -11,7 +11,6 @@ import { FloatingWhatsApp } from '@/components/floating-whatsapp';
 import { FAQ } from '@/components/faq';
 import { galleryQueryOptions } from '@/lib/gallery-query';
 import { About } from '@/components/about';
-import { galleryPreviewUrl } from '@/gallery-previews';
 import { ScrollReveal } from '@/components/scroll-reveal';
 import { AccentText } from '@/components/accent-text';
 
@@ -31,9 +30,11 @@ export const Route = createFileRoute('/')({
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: content.seo.title },
       { name: 'twitter:description', content: content.seo.description },
-      { property: 'og:image', content: new URL(galleryPreviewUrl(content.gallery.works[0]?.src ?? ''), content.seo.siteUrl).href },
-      { name: 'twitter:image', content: new URL(galleryPreviewUrl(content.gallery.works[0]?.src ?? ''), content.seo.siteUrl).href },
-      { property: 'og:image:alt', content: content.gallery.works[0]?.alt ?? content.brand.name },
+      { property: 'og:image', content: new URL(content.seo.shareImage, content.seo.siteUrl).href },
+      { property: 'og:image:width', content: '1200' },
+      { property: 'og:image:height', content: '630' },
+      { name: 'twitter:image', content: new URL(content.seo.shareImage, content.seo.siteUrl).href },
+      { property: 'og:image:alt', content: content.seo.shareImageAlt },
     ],
     links: [{ rel: 'canonical', href: content.seo.siteUrl }, { rel: 'preload', as: 'image', href: content.hero.imageSrc, fetchPriority: 'high' }],
     scripts: [{ type: 'application/ld+json', children: JSON.stringify({ '@context': 'https://schema.org', '@type': 'HomeAndConstructionBusiness', name: content.brand.name, alternateName: content.seo.alternateName, url: content.seo.siteUrl, description: content.seo.description, telephone: `+${content.contact.whatsappNumber}`, sameAs: [content.contact.instagramUrl], image: new URL(content.gallery.works[0]?.src ?? '', content.seo.siteUrl).href, address: { '@type': 'PostalAddress', streetAddress: 'Rua Valeriano Antonio Benato, 120 - Dois Córregos', postalCode: '13420-838', addressLocality: content.seo.city, addressRegion: content.seo.region, addressCountry: content.seo.country }, hasOfferCatalog: { '@type': 'OfferCatalog', name: content.servicesTitle, itemListElement: content.services.map(service => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: service.title, description: service.description } })) } }) }],
