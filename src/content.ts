@@ -65,7 +65,7 @@ export const content = {
     formTitle: 'Peça seu orçamento',
     addressLabel: 'Endereço', hoursLabel: 'Atendimento', citiesLabel: 'Cidades atendidas',
   },
-  seo: { title: 'R.N Vidraçaria | Box, Sacadas, Portas e Janelas', description: 'R.N Vidraçaria em Piracicaba, SP: box de banheiro, fechamento de sacadas e varandas, portas e janelas de vidro, espelhos, claraboias e vidros sob medida. Orçamento pelo WhatsApp.', siteUrl: 'https://rnvidracaria.vercel.app/', alternateName: 'RN Vidraçaria', city: 'Piracicaba', region: 'SP', country: 'BR' },
+  seo: { title: 'R.N Vidraçaria | Box, Sacadas, Portas e Janelas', description: 'R.N Vidraçaria em Piracicaba, SP: box de banheiro, fechamento de sacadas e varandas, portas e janelas de vidro, espelhos, claraboias e vidros sob medida. Orçamento pelo WhatsApp.', siteUrl: 'https://rnvidracaria.vercel.app/', shareImage: '/og-image.png?v=2', shareImageAlt: 'Logo R.N Vidraçaria', alternateName: 'RN Vidraçaria', city: 'Piracicaba', region: 'SP', country: 'BR' },
   visual: { accentPhrases: ['muda o ambiente', 'cada espaço', 'nos detalhes', 'nossos clientes', 'frequentes', 'orçamento'] },
   nav: [ { id: 'inicio', label: 'Início' }, { id: 'sobre', label: 'Sobre' }, { id: 'servicos', label: 'Serviços' }, { id: 'galeria', label: 'Galeria' }, { id: 'depoimentos', label: 'Depoimentos' }, { id: 'contato', label: 'Contato' } ],
   hero: {

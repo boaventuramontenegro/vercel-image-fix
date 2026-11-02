@@ -38,3 +38,4 @@
 - Apply ScrollReveal through a shared observer scoped to the single-page content, using independent translate/scale properties and excluding carousel cards; this preserves native transforms and keeps SSR content visible before initialization.
 
 - Images live as real files in public/images and pointer .asset.json urls point there; never use /__l5e/ CDN urls because the site is deployed on Vercel, where those paths do not exist.
+- Keep the dedicated social-share raster in public/og-image.png, composed from the unchanged logo source, with its URL and alt in content.seo and tags only in the index route head; SSR exposes these tags without JavaScript and Vercel serves the image directly.
